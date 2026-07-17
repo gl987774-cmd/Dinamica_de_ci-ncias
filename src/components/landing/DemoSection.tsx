@@ -1,8 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Play, Pause, Check } from "lucide-react";
 
-const DEMO_VIDEO_URL =
-  "https://pacotespremium.com/wp-content/uploads/2026/06/BioAtividades-500-Dinamicas-de-Ciencias-Prontas-para-Aplicar-1-1.mp4";
+const DEMO_VIDEO_URL = "/videos/video02.mp4";
 
 const demoItems = [
   "Arquivos prontos em PDF de alta qualidade",

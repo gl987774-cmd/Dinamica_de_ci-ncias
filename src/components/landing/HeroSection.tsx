@@ -41,8 +41,25 @@ export function HeroSection() {
     <section className="bg-background px-4 pb-12 pt-10 sm:pt-14">
       <div className="container mx-auto max-w-4xl text-center">
         <h1 className="mx-auto max-w-3xl text-4xl font-extrabold leading-tight text-foreground sm:text-5xl md:text-6xl">
-          teste
-          {" "}
+          <span
+            style={{
+              background: "linear-gradient(135deg, #006904, #1f8b2f)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            Pare de perder
+          </span>{" "}
+          seu{" "}
+          <span
+            style={{
+              background: "linear-gradient(135deg, #006904, #1f8b2f)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            fim de semana
+          </span>{" "}
           planejando aula de Ciências
         </h1>
 
